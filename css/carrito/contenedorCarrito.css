@@ -1,0 +1,143 @@
+/*carrito*/
+.contenedor__carrito {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 4rem;
+  font-size: 2rem;
+}
+
+.carrito__productos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carrito__producto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+
+}
+
+.producto__carrito-image {
+  width: 6rem;
+  border-radius: 1rem;
+}
+
+.carrito__producto-eliminar {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: red;
+}
+
+.carrito__acciones {
+  display: flex;
+  justify-content: space-between;
+  transition: 1s;
+}
+
+.carrito__acciones-vaciar {
+  border: 0;
+  background-color: #8c7c74;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.carrito__acciones-dere {
+  display: flex;
+}
+
+.carrito__acciones-total {
+  display: flex;
+  background-color: #e1d7d1;
+  padding: 1rem;
+  color: #341404;
+  text-transform: uppercase;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  gap: 1rem;
+}
+
+.carrito__acciones-total p {
+  font-family: none;
+  font-size: 18px;
+}
+
+.carrito__acciones-comprar {
+  border: 0;
+  background-color: #8c7c74;
+  padding: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  transition: 1s;
+}
+
+.carrito__acciones-vaciar:hover,
+.carrito__acciones-comprar:hover {
+  background-color: #341404;
+}
+
+.disabled {
+  display: none;
+}
+
+@media screen and (max-width:480px) {
+  .carrito__producto {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  small {
+    margin-right: 1rem;
+  }
+
+  .carrito__producto-titulo {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+
+  .carrito__producto-cantidad {
+    display: flex;
+    margin: 1rem;
+  }
+  .carrito__producto-precio{
+    display: flex;
+    margin: 1rem;
+  }
+  .carrito__producto-subtotal{
+    display: flex;
+    margin: 1rem;
+  }
+  .carrito__acciones{
+    display: flex;
+    flex-direction: column;
+  }
+  .carrito__accione-iz{
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .carrito__producto {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
+  
+
+}

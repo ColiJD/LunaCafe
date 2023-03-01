@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/menu/header.css" />
+  <link rel="stylesheet" href="css/menu/menu.css" />
+  <link rel="stylesheet" href="css/menu/footer.css" />
+  <link rel="stylesheet" href="css/menu/productos.css">
+  <title>Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Moon+Dance&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="head__contenedor">
+      <h1 class="head__titulo" id="titulo__principal" head__tipo-titulo>Menu</h1>
+      <button class="head__btn-salir" id="head__btn-salir">
+        <a class="head__link" href="sesion.html">Salir</a>
+      </button>
+    </div>
+  </header>
+  <main>
+    <aside class="botones" id="botones">
+      <input type="radio" name="filtro" id="todos" class="boton__menu active" data__tipo-boton>
+      <label class="boton__opcion" for="todos">Todos</label>
+      <input type="radio" name="filtro" id="bebidasCalientes" class="boton__menu" data__tipo-boton>
+      <label class="boton__opcion" for="bebidasCalientes">Bebebidas Calientes</label>
+      <input type="radio" name="filtro" id="bebidasHeladas" class="boton__menu" data__tipo-boton>
+      <label class="boton__opcion" for="bebidasHeladas">Bebidas Heladas</label>
+      <input type="radio" name="filtro" id="postres" class="boton__menu" data__tipo-boton>
+      <label class="boton__opcion" for="postres">Postres</label>
+      <a class="boton__opcion boton__menu" href="#"><i class="bi bi-cart3"></i><span
+          class="boton__numerito" id="boton__numerito" data__tipo-numerito>0</span></a>
+    </aside>
+    <section class="productos__lista" id="productos__lista" data__tipo-contendor>
+    </section>
+  </main>
+  <footer>
+    <p class="copy">&copy Copyright Luna Cafe</p>
+  </footer>
+  <script src="js/menu.js" type="module"></script>
+</body>
+
+</html>

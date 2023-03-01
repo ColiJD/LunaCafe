@@ -1,0 +1,63 @@
+
+.head__contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("/img/fondoback.jpg") no-repeat center / cover;
+    padding: 2.5rem 5rem 2.5rem 5rem;
+
+}
+
+.head__titulo {
+    color: #ad7f69;
+    font-size: 8rem;
+    
+}
+
+.head__btn-salir {
+    font-size: 2rem;
+    font-family: "Moon Dance", cursive;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.head__link {
+    text-decoration: none;
+    color: #e5ae78;
+    transition: 1s all;
+}
+
+.head__link:hover {
+    color: red;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .head__contenedor{
+        display: flex;
+        justify-content: center;
+
+    }
+    .head__titulo{
+        font-size: 6rem;
+    }
+    .head__btn-salir{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .head__contenedor{
+        display: flex;
+        justify-content: center;
+    }
+    .head__titulo{
+        font-size: 6rem;
+    }
+    .head__btn-salir{
+        display: none;
+    }
+}
