@@ -1,0 +1,18 @@
+@media screen and (max-width:768px){
+    .producto{
+        width: 185px;
+    }    
+}
+
+@media screen and (max-width:480px){
+    .productos__lista{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .producto{
+        width: 155px;
+        height: 290px;
+    }    
+}

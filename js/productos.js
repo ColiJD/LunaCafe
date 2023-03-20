@@ -1,8 +1,8 @@
 export const productos = [
     {
-        id: "calientes",
+        id: "001",
         titulo: "Capuchino",
-        imagen: "./img/calientes/1.jpg",
+        imagen: "../img/calientes/1.jpg",
         categoria: {
             nombre: "Caliente",
             id: "bebidasCalientes"
@@ -10,9 +10,9 @@ export const productos = [
         precio: 15
     },
     {
-        id: "calientes",
+        id: "002",
         titulo: "Bebida Helada",
-        imagen: "./img/calientes/2.jpg",
+        imagen: "../img/calientes/2.jpg",
         categoria: {
             nombre: "Caliente",
             id: "bebidasCalientes"
@@ -20,9 +20,9 @@ export const productos = [
         precio: 15
     },
     {
-        id: "calientes",
+        id: "003",
         titulo: "Cafe espreso",
-        imagen: "./img/calientes/3.jpg",
+        imagen: "../img/calientes/3.jpg",
         categoria: {
             nombre: "Caliente",
             id: "bebidasCalientes"
@@ -30,9 +30,9 @@ export const productos = [
         precio: 15
     },
     {
-        id: "calientes",
+        id: "004",
         titulo: "1",
-        imagen: "./img/calientes/4.jpg",
+        imagen: "../img/calientes/4.jpg",
         categoria: {
             nombre: "Caliente",
             id: "bebidasCalientes"
@@ -40,9 +40,9 @@ export const productos = [
         precio: 15
     },
     {
-        id: "calientes",
+        id: "005",
         titulo: "1",
-        imagen: "./img/calientes/8.jpg",
+        imagen: "../img/calientes/8.jpg",
         categoria: {
             nombre: "Caliente",
             id: "bebidasCalientes"
@@ -51,9 +51,29 @@ export const productos = [
     },
     /*HELADAAS*/
     {
-        id: "heladas",
+        id: "006",
         titulo: "A",
-        imagen: "./img/heladas/a.jpg",
+        imagen: "../img/heladas/a.jpg",
+        categoria: {
+            nombre: "heladas",
+            id: "bebidasHeladas"
+        },
+        precio: 20
+    },
+    {
+        id: "007",
+        titulo: "A",
+        imagen: "../img/heladas/b.jpg",
+        categoria: {
+            nombre: "heladas",
+            id: "bebidasHeladas"
+        },
+        precio: 20
+    },
+    {
+        id: "008",
+        titulo: "A",
+        imagen: "../img/heladas/c.jpeg",
         categoria: {
             nombre: "heladas",
             id: "bebidasHeladas"
@@ -63,7 +83,7 @@ export const productos = [
     {
         id: "heladas",
         titulo: "A",
-        imagen: "./img/heladas/b.jpg",
+        imagen: "../img/heladas/d.jpeg",
         categoria: {
             nombre: "heladas",
             id: "bebidasHeladas"
@@ -73,7 +93,7 @@ export const productos = [
     {
         id: "heladas",
         titulo: "A",
-        imagen: "./img/heladas/c.jpeg",
+        imagen: "../img/heladas/f.jpeg",
         categoria: {
             nombre: "heladas",
             id: "bebidasHeladas"
@@ -83,7 +103,7 @@ export const productos = [
     {
         id: "heladas",
         titulo: "A",
-        imagen: "./img/heladas/d.jpeg",
+        imagen: "../img/heladas/g.jpeg",
         categoria: {
             nombre: "heladas",
             id: "bebidasHeladas"
@@ -93,7 +113,7 @@ export const productos = [
     {
         id: "heladas",
         titulo: "A",
-        imagen: "./img/heladas/f.jpeg",
+        imagen: "../img/heladas/h.jpeg",
         categoria: {
             nombre: "heladas",
             id: "bebidasHeladas"
@@ -103,27 +123,7 @@ export const productos = [
     {
         id: "heladas",
         titulo: "A",
-        imagen: "./img/heladas/g.jpeg",
-        categoria: {
-            nombre: "heladas",
-            id: "bebidasHeladas"
-        },
-        precio: 20
-    },
-    {
-        id: "heladas",
-        titulo: "A",
-        imagen: "./img/heladas/h.jpeg",
-        categoria: {
-            nombre: "heladas",
-            id: "bebidasHeladas"
-        },
-        precio: 20
-    },
-    {
-        id: "heladas",
-        titulo: "A",
-        imagen: "./img/heladas/i.jpg",
+        imagen: "../img/heladas/i.jpg",
         categoria: {
             nombre: "heladas",
             id: "bebidasHeladas"
@@ -134,7 +134,7 @@ export const productos = [
     {
         id: "postres",
         titulo: "P1",
-        imagen: "./img/postres/f1.jpg",
+        imagen: "../img/postres/f1.jpg",
         categoria: {
             nombre: "postres",
             id: "postres"
@@ -144,7 +144,7 @@ export const productos = [
     {
         id: "postres",
         titulo: "P1",
-        imagen: "./img/postres/f2.jpg",
+        imagen: "../img/postres/f2.jpg",
         categoria: {
             nombre: "postres",
             id: "postres"
@@ -154,7 +154,7 @@ export const productos = [
     {
         id: "postres",
         titulo: "P1",
-        imagen: "./img/postres/f3.jpeg",
+        imagen: "../img/postres/f3.jpeg",
         categoria: {
             nombre: "postres",
             id: "postres"
@@ -164,7 +164,7 @@ export const productos = [
     {
         id: "postres",
         titulo: "P1",
-        imagen: "./img/postres/f4.jpg",
+        imagen: "../img/postres/f4.jpg",
         categoria: {
             nombre: "postres",
             id: "postres"
@@ -174,7 +174,7 @@ export const productos = [
     {
         id: "postres",
         titulo: "P1",
-        imagen: "./img/postres/f5.jpeg",
+        imagen: "../img/postres/f5.jpeg",
         categoria: {
             nombre: "postres",
             id: "postres"
@@ -184,7 +184,7 @@ export const productos = [
     {
         id: "postres",
         titulo: "P1",
-        imagen: "./img/postres/f6.jpeg",
+        imagen: "../img/postres/f6.jpeg",
         categoria: {
             nombre: "postres",
             id: "postres"
@@ -194,7 +194,7 @@ export const productos = [
     {
         id: "postres",
         titulo: "P1",
-        imagen: "./img/postres/f7.jpeg",
+        imagen: "../img/postres/f7.jpeg",
         categoria: {
             nombre: "postres",
             id: "postres"
@@ -204,7 +204,7 @@ export const productos = [
     {
         id: "postres",
         titulo: "P1",
-        imagen: "./img/postres/f8.jpeg",
+        imagen: "../img/postres/f8.jpeg",
         categoria: {
             nombre: "postres",
             id: "postres"

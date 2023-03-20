@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url("/img/fondoback.jpg") no-repeat center / cover;
+    background: url("../../img/fondoback.jpg") no-repeat center / cover;
     padding: 2.5rem 5rem 2.5rem 5rem;
 
 }

@@ -28,6 +28,16 @@ input[type="radio"] {
     display: none;
 }
 
+@media screen and (max-width:768px) {
+    .botones{
+        margin: 2.5rem;
+    }
+    .boton__opcion{
+        margin: 0 auto;
+    }
+}
+
+
 @media screen and (max-width:480px) {
     .botones{
         display: flex;
@@ -40,13 +50,3 @@ input[type="radio"] {
     }
 }
 
-@media screen and (max-width:768px) {
-    .botones{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .boton__opcion{
-        margin: 0 auto;
-    }
-}

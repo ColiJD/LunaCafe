@@ -1,6 +1,6 @@
-import { productos } from "./productos.js";
 
-const productoLista = document.querySelector('[data__tipo-contendor]');
+const productoLista = document.querySelector('[data-tipo-contendor]');
+
 
 export function cargarProductos(productosElegidos) {
     productoLista.innerHTML = "";
@@ -27,6 +27,9 @@ export function cargarProductos(productosElegidos) {
         productoAgregar.classList.add('producto__agregar');
         productoAgregar.textContent = "Agregar";
         productoAgregar.id = producto.id;
+        productoAgregar.dataset.tipo_agregar = "";
+
+
 
         productoLista.appendChild(div);
         div.appendChild(productoImagen);
@@ -36,9 +39,10 @@ export function cargarProductos(productosElegidos) {
         productoDetalle.appendChild(productoItem);
         productoItem.appendChild(productoPrecio);
         productoItem.appendChild(productoAgregar);
-    })   
-    
+    });
 };
+
+
 
 
 
